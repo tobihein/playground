@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry exported="true" kind="lib" path="jmockit-1.30.jar" sourcepath="C:/dev/software/maven/m2-repo/org/jmockit/jmockit/1.30/jmockit-1.30-sources.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

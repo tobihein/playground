@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.example.calculator">
+   <implementation class="org.example.calculator.impl.CalculatorServiceImpl"/>
+   <service>
+      <provide interface="org.example.calculator.CalculatorService"/>
+   </service>
+   <reference bind="bind" cardinality="1..1" interface="org.example.calculator.multiply.MultiplyService" name="MultiplyService" policy="static" unbind="unbind"/>
+</scr:component>

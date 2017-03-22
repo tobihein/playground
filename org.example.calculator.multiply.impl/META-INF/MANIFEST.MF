@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Impl
+Bundle-SymbolicName: org.example.calculator.multiply.impl
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Import-Package: org.example.calculator.multiply;version="[1.0.0,2.0.0)"
+Service-Component: OSGI-INF/*.xml
+Bundle-ActivationPolicy: lazy

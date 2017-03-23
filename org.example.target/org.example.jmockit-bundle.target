@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="org.example" sequenceNumber="4">
+<?pde version="3.8"?><target name="org.example" sequenceNumber="12">
 <locations>
-<location path="C:\dev\p2-tmp\eclipse-test-framework-4.5.2" type="Directory"/>
-<location path="C:\dev\p2-tmp\org.eclipse.platform.source-4.5.2" type="Directory"/>
-<location path="C:\dev\p2-tmp\jmockit-bundle" type="Directory"/>
-<location path="C:\dev\p2-tmp\jmockit-rebundled" type="Directory"/>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.test.feature.group" version="3.7.0.v20150428-2048"/>
+<repository location="file:/C:/dev/p2-tmp/eclipse-test-framework-4.5.2/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.platform.feature.group" version="4.5.2.v20160212-1500"/>
+<repository location="file:/C:/dev/p2-tmp/org.eclipse.platform.source-4.5.2/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.jmockit.bundle.feature.group" version="1.30.0"/>
+<repository location="file:/C:/dev/p2-tmp/jmockit-bundle/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.jmockit.rebundled.feature.group" version="1.30.0"/>
+<repository location="file:/C:/dev/p2-tmp/jmockit-rebundled/"/>
+</location>
 </locations>
 </target>

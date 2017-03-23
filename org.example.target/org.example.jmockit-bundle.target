@@ -4,5 +4,6 @@
 <location path="C:\dev\p2-tmp\eclipse-test-framework-4.5.2" type="Directory"/>
 <location path="C:\dev\p2-tmp\org.eclipse.platform.source-4.5.2" type="Directory"/>
 <location path="C:\dev\p2-tmp\jmockit-bundle" type="Directory"/>
+<location path="C:\dev\p2-tmp\jmockit-rebundled" type="Directory"/>
 </locations>
 </target>

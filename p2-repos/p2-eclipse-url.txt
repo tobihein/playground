@@ -1,0 +1,2 @@
+http://archive.eclipse.org/eclipse/downloads/drops4/R-4.5.2-201602121500/download.php?dropFile=org.eclipse.platform.source-4.5.2.zip
+http://archive.eclipse.org/eclipse/downloads/drops4/R-4.5.2-201602121500/download.php?dropFile=eclipse-test-framework-4.5.2.zip
